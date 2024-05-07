@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner{
+    background-color: #a35c33;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-weight:bolder;
+    color:#2c180e
+}
+
+.display{
+    background-color: #2c180e;
+    font-size: 3rem;
+    color: white;
+    text-align: right;
+    padding: 7px;
+    height:5rem;
+    vertical-align: middle;
+}
+
+.keypad{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+    flex-grow: 1;
+}
+.row{
+    display:flex;
+    flex-direction: row-reverse;
+    margin:0;
+    padding: 0;
+    height: 25%;
+    flex-grow: 1;
+}
+
+.btn-number{
+    width: 25%;
+    height: 5rem;
+    min-height: 5rem;
+    font-size: 120%;
+}
